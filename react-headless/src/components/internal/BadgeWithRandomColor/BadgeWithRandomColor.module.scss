@@ -1,0 +1,13 @@
+
+.badge {
+
+}
+
+:global {
+  :local(.badge) {
+    .ant-badge-status-dot {
+      height: 17px !important;
+      width: 17px !important;
+    }
+  }
+}
